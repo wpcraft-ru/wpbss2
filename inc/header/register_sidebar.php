@@ -30,3 +30,9 @@ register_sidebar(array(
 	'before_title' => '<h3>',
 	'after_title' => '</h3>',
 ));
+
+function header_add_tmpl_3widgets(){
+
+	get_template_part( 'inc/template-parts/header', '3widgets' );
+
+} add_action( 'header_add_section', 'header_add_tmpl_3widgets' );

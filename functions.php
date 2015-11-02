@@ -107,7 +107,7 @@ add_action( 'after_setup_theme', 'wpbss_content_width', 0 );
 function wpbss_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html__( 'Sidebar', 'wpbss' ),
-		'id'            => 'sidebar-1',
+		'id'            => 'alfa-sidebar-1',
 		'description'   => '',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
@@ -134,7 +134,8 @@ add_action( 'wp_enqueue_scripts', 'wpbss_scripts' );
  /**
   * Implement the Custom Header feature.
   */
- require get_template_directory() . '/inc/custom-header.php';
+ require get_template_directory() . '/inc/header/custom-header.php';
+ require get_template_directory() . '/inc/header/menu-fullwidth.php';
 
  /**
   * Custom template tags for this theme.
@@ -166,7 +167,7 @@ add_action( 'wp_enqueue_scripts', 'wpbss_scripts' );
  /**
   * Load other files.
   */
- require get_template_directory() . '/inc/register_sidebar.php';
+ require get_template_directory() . '/inc/header/register_sidebar.php';
 
 
  /**
