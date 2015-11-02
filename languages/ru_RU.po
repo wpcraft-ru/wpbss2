@@ -1,0 +1,268 @@
+# Copyright (C) 2015 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2015-06-06 21:26+0500\n"
+"PO-Revision-Date: 2015-06-06 21:26+0500\n"
+"Last-Translator: Anatoly <a.yumashev@gmail.com>\n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Упс! Такая страница не найдена."
+
+#: 404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr "Здесь мы ничего не нашли… Попробуете воспользоваться поиском?"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Наиболее популярные категории"
+
+#. translators: %1$s: smiley
+#: 404.php:44
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Попробуйте посмотреть все записи за месяц: %s"
+
+#: comments.php:28
+msgid "Comments"
+msgstr "Комментарии"
+
+#: comments.php:34 comments.php:52
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#: comments.php:37 comments.php:55
+msgid "Older Comments"
+msgstr "Предыдущие комментарии"
+
+#: comments.php:38 comments.php:56
+msgid "Newer Comments"
+msgstr "Следующие комментарии"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#: functions.php:45
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+#: functions.php:46
+msgid "Footer Menu"
+msgstr "Меню подвала"
+
+#: functions.php:107
+msgid "Sidebar"
+msgstr "Сайдбар"
+
+#: header.php:56
+msgid "Toggle navigation"
+msgstr "Переключить навигацию"
+
+#: inc/comments-wpbss.php:24 inc/template-parts/content-page.php:26
+#: inc/template-tags.php:121
+msgid "Edit"
+msgstr "Изменить"
+
+#: inc/comments-wpbss.php:30
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает модерации."
+
+#: inc/extras.php:52
+#, php-format
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: inc/register_sidebar.php:7
+msgid "Header 1"
+msgstr "Шапка 1"
+
+#: inc/register_sidebar.php:9
+msgid "Header Widgets 1"
+msgstr "Заголовок Виджеты 1"
+
+#: inc/register_sidebar.php:16
+msgid "Header 2"
+msgstr "Шапка 2"
+
+#: inc/register_sidebar.php:18
+msgid "Header Widgets 2"
+msgstr "Заголовок Виджеты 2"
+
+#: inc/register_sidebar.php:25
+msgid "Header 3"
+msgstr "Шапка 3"
+
+#: inc/register_sidebar.php:27
+msgid "Header Widgets 3"
+msgstr "Заголовок Виджеты 3"
+
+#: inc/register_sidebar.php:39
+msgid "Footer 1"
+msgstr "Подвал 1"
+
+#: inc/register_sidebar.php:41
+msgid "Footer Widgets 1"
+msgstr "Виджеты в подвале 1"
+
+#: inc/register_sidebar.php:48
+msgid "Footer 2"
+msgstr "Подвал 2"
+
+#: inc/register_sidebar.php:50
+msgid "Footer Widgets 2"
+msgstr "Виджеты в подвале 2"
+
+#: inc/template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: inc/template-parts/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Готовы разместить свою первую запись? <a href=\\»%1$s\\»>Начните здесь</a>."
+
+#: inc/template-parts/content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"К сожалению, по вашему запросу ничего не найдено. Пожалуйста, попробуйте еще "
+"раз с другими ключевыми словами."
+
+#: inc/template-parts/content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "Мы не можем найти &rsquo;то, что вы ищете. Возможно, поиск поможет."
+
+#: inc/template-parts/content-page.php:19
+#: inc/template-parts/content-single.php:20 inc/template-parts/content.php:31
+#: page-no-title.php:22
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: inc/template-parts/content.php:21
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Читать далее %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:24
+msgid "Posts navigation"
+msgstr "Навигация по записям"
+
+#: inc/template-tags.php:28
+msgid "Older posts"
+msgstr "Предыдущие посты"
+
+#: inc/template-tags.php:32
+msgid "Newer posts"
+msgstr "Новые посты"
+
+#: inc/template-tags.php:57
+msgid "Post navigation"
+msgstr "Навигация по записям"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:103 inc/template-tags.php:109
+msgid ", "
+msgstr ","
+
+#: inc/template-tags.php:117
+msgid "Leave a comment"
+msgstr "Комментировать"
+
+#: inc/template-tags.php:117
+msgid "1 Comment"
+msgstr "1 Комментарий"
+
+#: inc/template-tags.php:117
+msgid "% Comments"
+msgstr "Комментариев: %"
+
+#: inc/template-tags.php:138
+#, php-format
+msgid "Category: %s"
+msgstr "Категория: %s"
+
+#: inc/template-tags.php:140
+#, php-format
+msgid "Tag: %s"
+msgstr "Метка: %s"
+
+#: inc/template-tags.php:142
+#, php-format
+msgid "Author: %s"
+msgstr "Автор: %s"
+
+#: inc/template-tags.php:144
+#, php-format
+msgid "Year: %s"
+msgstr "Год: %s"
+
+#: inc/template-tags.php:146
+#, php-format
+msgid "Month: %s"
+msgstr "Месяц: %s"
+
+#: inc/template-tags.php:148
+#, php-format
+msgid "Day: %s"
+msgstr "День: %s"
+
+#: inc/template-tags.php:170
+#, php-format
+msgid "Archives: %s"
+msgstr "Архив: %s"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:174
+#, php-format
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:176
+msgid "Archives"
+msgstr "Архив"
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска для: %s"
+
+#: searchform.php:8
+msgid "Text for search..."
+msgstr "Текст для поиска …"
+
+#: searchform.php:10
+msgid "Find"
+msgstr "Найти"
+
+#~ msgctxt "post date"
+#~ msgid "Posted on %s"
+#~ msgstr "Опубликовано: %s"
+
+#~ msgctxt "post author"
+#~ msgid "by %s"
+#~ msgstr "Автор: %s"
+
+#~ msgid "Posted in %1$s"
+#~ msgstr "Рубрики: %1$s"
+
+#~ msgid "Tagged %1$s"
+#~ msgstr "Метки: %1$s"
