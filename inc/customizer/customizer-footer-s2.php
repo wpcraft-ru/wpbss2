@@ -4,9 +4,9 @@
 
 class footer_section_2_class {
   function __construct() {
+    add_action( 'customize_register', array($this, 'wpbss_customizer'));
     add_action( 'footer_section_add', array($this,'footer_add_section'));
     add_action( 'add_style_options', array($this, 'wpbss_print_style'));
-    add_action( 'customize_register', array($this, 'wpbss_customizer'));
 
     register_sidebar(array(
     	'name' => __('Footer S2'),
@@ -99,9 +99,9 @@ class footer_section_2_class {
   function wpbss_print_style() {
       ?>
         #footer-s2 {
-          padding: 11px;
-            background-color: <?php echo 'black' . get_theme_mod( 'default_color' ) ?>;
-            color: <?php echo get_theme_mod( 'footer_section_2_color' ) ?>;
+          padding: 10px;
+          background-color: <?php echo get_theme_mod( 'footer_section_2_bg_color' ) ?>;
+          color: <?php echo get_theme_mod( 'footer_section_2_color' ) ?>;
         }
       <?php
   }

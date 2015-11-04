@@ -106,12 +106,13 @@ class footer_section_3_class {
 
   }
 
-  //Вывод стилей для перовй секции подвала
+  //Вывод стилей для данной секции подвала
   function wpbss_print_style() {
       ?>
         #footer-s3 {
-            background-color: <?php echo get_theme_mod( 'footer_section_3_bg_color' ); ?>;
-            color: <?php echo get_theme_mod( 'footer_section_3_color' ); ?>;
+          padding: 10px;
+          background-color: <?php echo get_theme_mod( 'footer_section_3_bg_color' ); ?>;
+          color: <?php echo get_theme_mod( 'footer_section_3_color' ); ?>;
         }
       <?php
   }
